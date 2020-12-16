@@ -10,7 +10,7 @@
 	<script src="//cdn.staticfile.org/layer/2.3/layer.js"></script>
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<link rel="shortcut icon" href="https://image.suning.cn/uimg/ZR/share_order/158562104413864293.jpg">
+	<link rel="icon" href="https://everking.xyz/wp-content/uploads/2020/03/cropped-0f8d375fc1d3270ea9f776710e01baeb-192x192.png" sizes="192x192" />
 
 	 <style>
 		.mdui-appbar .mdui-toolbar{
@@ -90,9 +90,21 @@
 		#dl-latest{position:relative;top:50%;transform:translateY(-50%)}
 	</style>
 </head>
-<body class=" mdui-appbar-with-toolbar mdui-theme-layout-dark mdui-theme-primary-orange">
-	<header class="mdui-appbar mdui-appbar-fixed mdui-color-theme mdui-appbar-inset">	
-	<div class="mdui-toolbar mdui-color-theme">
+<body class="mdui-appbar-with-toolbar mdui-theme-layout-dark mdui-theme-primary-orange">
+  	<div style="
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url(https://www.rrll.cc/tuceng/ecy.php);
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: .2;
+	"></div>
+
+  	<header class="mdui-appbar mdui-appbar-fixed mdui-color-theme mdui-appbar-inset" style="background-color: rgba(33,33,33,.7) !important;backdrop-filter: blur(20px)">
+      <div class="mdui-toolbar mdui-color-theme" style="background-color: initial !important;">
         <span class="mdui-btn  mdui-typo-headline mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></span>
 		<a href="/" class="mdui-typo-headline"><?php e(config('site_name'));?></a>
 		<?php foreach((array)$navs as $n=>$l):?>
@@ -104,7 +116,10 @@
 	</div>	
 	</header>
 
-<div class="mdui-drawer mdui-drawer-close mdui-color-indigo-50" id="main-drawer">
+<div class="mdui-drawer mdui-drawer-close" id="main-drawer" style="
+    background-color: rgba(57, 57, 57, 0.3);
+    backdrop-filter: blur(20px);
+">
 	<div class="mdui-grid-tile">
 		<a href="javascript:;"><img src="<?php e(config('drawer_img'));?>"/></a>
 		<div class="mdui-grid-tile-actions mdui-grid-tile-actions-gradient">

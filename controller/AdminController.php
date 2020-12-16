@@ -5,8 +5,17 @@ class AdminController{
 	  'site_name' => 'OneIndex',
 	  'title_name' => 'Index of /',
 	  'password' => 'oneindex',
-	  'drawer' => '<a href="/" class="mdui-list-item mdui-ripple"><i class="mdui-list-item-icon mdui-icon material-icons">home</i><div class="mdui-list-item-content">首页</div></a>',
-	  'drawer_img' => 'https://image.suning.cn/uimg/ZR/share_order/158562116951626812.jpg',
+	  'drawer' => '<div class="mdui-collapse-item">
+    <a href="https://t.me/Nolovenodie" class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons" style="margin-left: 25px">message</i>
+        <div class="mdui-list-item-content">Telegram</div>
+    </a>
+    <a href="https://everking.xyz" class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons" style="margin-left: 25px">bubble_chart</i>
+        <div class="mdui-list-item-content">Blog</div>
+    </a>
+</div>',
+	  'drawer_img' => 'https://avatarfiles.alphacoders.com/265/265130.jpg',
 	  'style'=>'nexmoe',
       'api_url'=>'',
 	  'onedrive_root' =>'',

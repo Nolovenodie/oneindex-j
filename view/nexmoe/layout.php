@@ -90,7 +90,7 @@
 		#dl-latest{position:relative;top:50%;transform:translateY(-50%)}
 	</style>
 </head>
-<body class=" mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
+<body class=" mdui-appbar-with-toolbar mdui-theme-layout-dark mdui-theme-primary-orange">
 	<header class="mdui-appbar mdui-appbar-fixed mdui-color-theme mdui-appbar-inset">	
 	<div class="mdui-toolbar mdui-color-theme">
         <span class="mdui-btn  mdui-typo-headline mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></span>

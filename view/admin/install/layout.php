@@ -63,7 +63,7 @@
 		}
 	</style>
 </head>
-<body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
+<body class="mdui-theme-layout-dark mdui-theme-primary-orange">
 	<header class="mdui-appbar mdui-color-theme">
 		<div class="mdui-toolbar mdui-container">
 			<a href="/" class="mdui-typo-headline">OneIndex</a>

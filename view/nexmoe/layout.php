@@ -103,7 +103,7 @@
 		opacity: .2;
 	"></div>
 
-  	<header class="mdui-appbar mdui-appbar-fixed mdui-color-theme mdui-appbar-inset" style="background-color: rgba(33,33,33,.7) !important;backdrop-filter: blur(20px)">
+  	<header class="mdui-appbar mdui-appbar-fixed mdui-color-theme mdui-appbar-inset" style="background-color: rgba(33,33,33,.7) !important;backdrop-filter: blur(20px);-webkit-backdrop-filter: blur(20px)">
       <div class="mdui-toolbar mdui-color-theme" style="background-color: initial !important;">
         <span class="mdui-btn  mdui-typo-headline mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></span>
 		<a href="/" class="mdui-typo-headline"><?php e(config('site_name'));?></a>
@@ -119,6 +119,7 @@
 <div class="mdui-drawer mdui-drawer-close" id="main-drawer" style="
     background-color: rgba(57, 57, 57, 0.3);
     backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
 ">
 	<div class="mdui-grid-tile">
 		<a href="javascript:;"><img src="<?php e(config('drawer_img'));?>"/></a>
